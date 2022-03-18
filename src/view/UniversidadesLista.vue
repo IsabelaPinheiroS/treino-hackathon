@@ -8,7 +8,7 @@
 
 <script>
 import UniversidadesTabela from '@/components/UniversidadesTabela.vue';
-import UniversidadesTabela from '../components/UniversidadesTabela';
+
 
 export default {
   name: 'UniversidadeLista',
