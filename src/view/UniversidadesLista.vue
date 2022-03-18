@@ -1,10 +1,13 @@
 <template>
   <v-container>
     <h2 class="text-h5 text-center mb-3 mt-5">Lista de Universidades</h2>
+    <UniversidadesTabela :universidades="universidadeLista"/>
+    
   </v-container>
 </template>
 
 <script>
+import UniversidadesTabela from '@/components/UniversidadesTabela.vue';
 import UniversidadesTabela from '../components/UniversidadesTabela';
 
 export default {
