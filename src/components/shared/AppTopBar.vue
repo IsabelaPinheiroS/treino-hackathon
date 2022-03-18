@@ -19,19 +19,24 @@
           v-model="group"
           active-class="light-blue lighten-3"
         >
+          <router-link to = "/">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item>
+          </router-link>
 
+          <router-link to = "/UniversidadesLista">
           <v-list-item>
             <v-list-item-icon>
               <v-icon>mdi-account</v-icon>
             </v-list-item-icon>
             <v-list-item-title>Universidades</v-list-item-title>
           </v-list-item>
+          </router-link>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -50,5 +55,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .app-top-bar a{
+    text-decoration: none;
+  }
 </style>
